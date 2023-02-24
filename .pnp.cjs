@@ -35,6 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.4.21"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:d6ad741563a359af0427a8d0c78b77008dc5ab312017e1b59bfe1cc58406df9d90257c426d78330b8d61e987f924697cc5fbf532f7e7aabb1ea94fa11ec5512e#npm:18.2.0"],\
+            ["react-icons", "virtual:d6ad741563a359af0427a8d0c78b77008dc5ab312017e1b59bfe1cc58406df9d90257c426d78330b8d61e987f924697cc5fbf532f7e7aabb1ea94fa11ec5512e#npm:4.7.1"],\
             ["tailwindcss", "virtual:d6ad741563a359af0427a8d0c78b77008dc5ab312017e1b59bfe1cc58406df9d90257c426d78330b8d61e987f924697cc5fbf532f7e7aabb1ea94fa11ec5512e#npm:3.2.7"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=ad5954"],\
             ["vite", "virtual:d6ad741563a359af0427a8d0c78b77008dc5ab312017e1b59bfe1cc58406df9d90257c426d78330b8d61e987f924697cc5fbf532f7e7aabb1ea94fa11ec5512e#npm:4.1.4"]\
@@ -1946,6 +1947,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["react-icons", [\
+        ["npm:4.7.1", {\
+          "packageLocation": "./.yarn/cache/react-icons-npm-4.7.1-27c284b383-ed3cbdc5fc.zip/node_modules/react-icons/",\
+          "packageDependencies": [\
+            ["react-icons", "npm:4.7.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:d6ad741563a359af0427a8d0c78b77008dc5ab312017e1b59bfe1cc58406df9d90257c426d78330b8d61e987f924697cc5fbf532f7e7aabb1ea94fa11ec5512e#npm:4.7.1", {\
+          "packageLocation": "./.yarn/__virtual__/react-icons-virtual-693bbd1eb2/0/cache/react-icons-npm-4.7.1-27c284b383-ed3cbdc5fc.zip/node_modules/react-icons/",\
+          "packageDependencies": [\
+            ["react-icons", "virtual:d6ad741563a359af0427a8d0c78b77008dc5ab312017e1b59bfe1cc58406df9d90257c426d78330b8d61e987f924697cc5fbf532f7e7aabb1ea94fa11ec5512e#npm:4.7.1"],\
+            ["@types/react", "npm:18.0.28"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["read-cache", [\
         ["npm:1.0.0", {\
           "packageLocation": "./.yarn/cache/read-cache-npm-1.0.0-00fa89ed05-cffc728b9e.zip/node_modules/read-cache/",\
@@ -2257,6 +2280,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.4.21"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:d6ad741563a359af0427a8d0c78b77008dc5ab312017e1b59bfe1cc58406df9d90257c426d78330b8d61e987f924697cc5fbf532f7e7aabb1ea94fa11ec5512e#npm:18.2.0"],\
+            ["react-icons", "virtual:d6ad741563a359af0427a8d0c78b77008dc5ab312017e1b59bfe1cc58406df9d90257c426d78330b8d61e987f924697cc5fbf532f7e7aabb1ea94fa11ec5512e#npm:4.7.1"],\
             ["tailwindcss", "virtual:d6ad741563a359af0427a8d0c78b77008dc5ab312017e1b59bfe1cc58406df9d90257c426d78330b8d61e987f924697cc5fbf532f7e7aabb1ea94fa11ec5512e#npm:3.2.7"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=ad5954"],\
             ["vite", "virtual:d6ad741563a359af0427a8d0c78b77008dc5ab312017e1b59bfe1cc58406df9d90257c426d78330b8d61e987f924697cc5fbf532f7e7aabb1ea94fa11ec5512e#npm:4.1.4"]\
